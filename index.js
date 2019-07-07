@@ -3,6 +3,6 @@ function justInvoke(fn) {
   return fn()
 }
 
-setThisWithCall(fn, thisValue, arg) {
+function setThisWithCall(fn, thisValue, arg) {
   return fn.call(thisValue, arg)
 }
